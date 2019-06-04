@@ -1,0 +1,6 @@
+framework module Pods_KKUnionPayHelper_Example {
+  umbrella header "Pods-KKUnionPayHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

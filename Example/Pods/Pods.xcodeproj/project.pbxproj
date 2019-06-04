@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9E1E65DC6DF22D158390120EEF909C /* Pods-KKUnionPayHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AD0832F9AA6821F5C62DB006A36450 /* Pods-KKUnionPayHelper_Tests-dummy.m */; };
+		34E465BD99793CE49D4117E0C648BB80 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 21330379B9ED3F289D5B30E8E215FB58 /* ReplaceMe.m */; };
+		4238380ABED4C70EAE47FB5E8A69F8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		433CE24CC115B0CE48A6F9C2589F34C3 /* KKUnionPayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCF3DFFD657814B0FC33A60E842355 /* KKUnionPayHelper-dummy.m */; };
+		4C22F28104585319495662DE30EAB9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		82E6BF80DACF524E18BD8709317E6EE5 /* Pods-KKUnionPayHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B474B13B2CEA1325F7AFB261E37AE4 /* Pods-KKUnionPayHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B430CC850CDCD66DFFA4B7988E7531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9985D861DA3CF58943DF4D9522FF3E6B /* Pods-KKUnionPayHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2B68AA15EDCA52799A36C9CB176F8 /* Pods-KKUnionPayHelper_Example-dummy.m */; };
+		AAA00D583DA6395D6D98B9B6A200357B /* Pods-KKUnionPayHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA27244068C75A34E5821368B693EE3 /* Pods-KKUnionPayHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAEAA075F7EBFA58D2A5A8C956AE0691 /* KKUnionPayHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C86426EC83B17D001658B20FE616E3 /* KKUnionPayHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199E0F1A20BE93D6766B13EC040C570F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6C6F3A299D1B4556F8B8161786A0ABC;
+			remoteInfo = "Pods-KKUnionPayHelper_Example";
+		};
+		B35193398C156DFD2EDF02557497EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4B1513EAC6258F444A6CE4AF225879;
+			remoteInfo = KKUnionPayHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EE6F5344CF4C34C0E533C983FA0758 /* Pods-KKUnionPayHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		081AAB98734CFE0C5869AB9D4FC671EC /* Pods-KKUnionPayHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKUnionPayHelper_Example.modulemap"; sourceTree = "<group>"; };
+		1DC2B68AA15EDCA52799A36C9CB176F8 /* Pods-KKUnionPayHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKUnionPayHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		21330379B9ED3F289D5B30E8E215FB58 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KKUnionPayHelper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		21C86426EC83B17D001658B20FE616E3 /* KKUnionPayHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-umbrella.h"; sourceTree = "<group>"; };
+		27D9C0F6510D04DF91094DEF6E90DED1 /* Pods-KKUnionPayHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKUnionPayHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A830002B458DFEE912995857F01C2ED /* KKUnionPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKUnionPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30AD0832F9AA6821F5C62DB006A36450 /* Pods-KKUnionPayHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKUnionPayHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		37B474B13B2CEA1325F7AFB261E37AE4 /* Pods-KKUnionPayHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKUnionPayHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		3F81DA0DF47133E0D9ACB36885925132 /* KKUnionPayHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKUnionPayHelper-Info.plist"; sourceTree = "<group>"; };
+		52AA0444BC70C88B06D9AB74E3973275 /* Pods-KKUnionPayHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKUnionPayHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		578518B393E3680C05DE6C9F9C1439BC /* Pods-KKUnionPayHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		59DB439559F9E278552E8C8060D2606F /* KKUnionPayHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKUnionPayHelper.modulemap; sourceTree = "<group>"; };
+		651F77E23F6472034A439B290E517A0C /* Pods-KKUnionPayHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7AFC6E7368FBC0D123473DC74968AA3D /* Pods-KKUnionPayHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKUnionPayHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B5533D3DD0C4C872DAE6B49668BF72E /* Pods-KKUnionPayHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKUnionPayHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		7F943697E11B78F81C21A6A396B8EA23 /* KKUnionPayHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-prefix.pch"; sourceTree = "<group>"; };
+		83027E35ADD664E3C747B5330CFCCF0E /* Pods-KKUnionPayHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89E4CBD0D225CD4B52F87AEDE07D9774 /* KKUnionPayHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKUnionPayHelper.xcconfig; sourceTree = "<group>"; };
+		8CA27244068C75A34E5821368B693EE3 /* Pods-KKUnionPayHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKUnionPayHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		962BCB927147F22F57DE6432C5662656 /* Pods-KKUnionPayHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		99CD90B717F7B467D94EF9A48E309914 /* Pods_KKUnionPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKUnionPayHelper_Example.framework; path = "Pods-KKUnionPayHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44B559F43F7EF91E08EAB8A01AE5110 /* Pods_KKUnionPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKUnionPayHelper_Tests.framework; path = "Pods-KKUnionPayHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B534F4A9FB0895CACDCD3D774B92A708 /* KKUnionPayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKUnionPayHelper.framework; path = KKUnionPayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56DB85D9E0463F1BA9FD8B4BEEEF584 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B58326893B24933DCA974584CFEDA80A /* Pods-KKUnionPayHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		B9B5ED5666844E8E8F1C659C018CA3E2 /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DACCF3DFFD657814B0FC33A60E842355 /* KKUnionPayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKUnionPayHelper-dummy.m"; sourceTree = "<group>"; };
+		FBDFD226F7C6D64298B5CFEB62F63174 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FDAC7066C093763E4171A0FE6277B5FE /* Pods-KKUnionPayHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6565A5AB8A4D8488E8D10D5A1649F937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C22F28104585319495662DE30EAB9F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87459A50E4F50017796D377DC7CD593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B430CC850CDCD66DFFA4B7988E7531 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E43FE0F92E61F4851A4D5335DB9329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4238380ABED4C70EAE47FB5E8A69F8E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E72A96CB089E7052F01D010D123092C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2A830002B458DFEE912995857F01C2ED /* KKUnionPayHelper.podspec */,
+				B56DB85D9E0463F1BA9FD8B4BEEEF584 /* LICENSE */,
+				FBDFD226F7C6D64298B5CFEB62F63174 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2F587A023437EF33435E1F70F9EFC167 /* KKUnionPayHelper */ = {
+			isa = PBXGroup;
+			children = (
+				21330379B9ED3F289D5B30E8E215FB58 /* ReplaceMe.m */,
+				0E72A96CB089E7052F01D010D123092C /* Pod */,
+				F49404895D14D7B4CFDEFFEEC74BFBBA /* Support Files */,
+			);
+			name = KKUnionPayHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		425C1947DE930079D867750D601D5DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B534F4A9FB0895CACDCD3D774B92A708 /* KKUnionPayHelper.framework */,
+				99CD90B717F7B467D94EF9A48E309914 /* Pods_KKUnionPayHelper_Example.framework */,
+				A44B559F43F7EF91E08EAB8A01AE5110 /* Pods_KKUnionPayHelper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FDA8AE730652AD410D42FB1D73EC6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE613367FDB034934B7ABB2E6C398F3F /* Pods-KKUnionPayHelper_Example */,
+				973EEB3CA05370B3037ADC260BBA44AF /* Pods-KKUnionPayHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		973EEB3CA05370B3037ADC260BBA44AF /* Pods-KKUnionPayHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5533D3DD0C4C872DAE6B49668BF72E /* Pods-KKUnionPayHelper_Tests.modulemap */,
+				27D9C0F6510D04DF91094DEF6E90DED1 /* Pods-KKUnionPayHelper_Tests-acknowledgements.markdown */,
+				578518B393E3680C05DE6C9F9C1439BC /* Pods-KKUnionPayHelper_Tests-acknowledgements.plist */,
+				30AD0832F9AA6821F5C62DB006A36450 /* Pods-KKUnionPayHelper_Tests-dummy.m */,
+				B58326893B24933DCA974584CFEDA80A /* Pods-KKUnionPayHelper_Tests-Info.plist */,
+				8CA27244068C75A34E5821368B693EE3 /* Pods-KKUnionPayHelper_Tests-umbrella.h */,
+				B9B5ED5666844E8E8F1C659C018CA3E2 /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */,
+				651F77E23F6472034A439B290E517A0C /* Pods-KKUnionPayHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-KKUnionPayHelper_Tests";
+			path = "Target Support Files/Pods-KKUnionPayHelper_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F601610FAE5DC1C9B93B90FDFCE7773D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				425C1947DE930079D867750D601D5DDC /* Products */,
+				64FDA8AE730652AD410D42FB1D73EC6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE613367FDB034934B7ABB2E6C398F3F /* Pods-KKUnionPayHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				081AAB98734CFE0C5869AB9D4FC671EC /* Pods-KKUnionPayHelper_Example.modulemap */,
+				52AA0444BC70C88B06D9AB74E3973275 /* Pods-KKUnionPayHelper_Example-acknowledgements.markdown */,
+				01EE6F5344CF4C34C0E533C983FA0758 /* Pods-KKUnionPayHelper_Example-acknowledgements.plist */,
+				1DC2B68AA15EDCA52799A36C9CB176F8 /* Pods-KKUnionPayHelper_Example-dummy.m */,
+				7AFC6E7368FBC0D123473DC74968AA3D /* Pods-KKUnionPayHelper_Example-frameworks.sh */,
+				962BCB927147F22F57DE6432C5662656 /* Pods-KKUnionPayHelper_Example-Info.plist */,
+				37B474B13B2CEA1325F7AFB261E37AE4 /* Pods-KKUnionPayHelper_Example-umbrella.h */,
+				FDAC7066C093763E4171A0FE6277B5FE /* Pods-KKUnionPayHelper_Example.debug.xcconfig */,
+				83027E35ADD664E3C747B5330CFCCF0E /* Pods-KKUnionPayHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-KKUnionPayHelper_Example";
+			path = "Target Support Files/Pods-KKUnionPayHelper_Example";
+			sourceTree = "<group>";
+		};
+		F49404895D14D7B4CFDEFFEEC74BFBBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59DB439559F9E278552E8C8060D2606F /* KKUnionPayHelper.modulemap */,
+				89E4CBD0D225CD4B52F87AEDE07D9774 /* KKUnionPayHelper.xcconfig */,
+				DACCF3DFFD657814B0FC33A60E842355 /* KKUnionPayHelper-dummy.m */,
+				3F81DA0DF47133E0D9ACB36885925132 /* KKUnionPayHelper-Info.plist */,
+				7F943697E11B78F81C21A6A396B8EA23 /* KKUnionPayHelper-prefix.pch */,
+				21C86426EC83B17D001658B20FE616E3 /* KKUnionPayHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKUnionPayHelper";
+			sourceTree = "<group>";
+		};
+		F601610FAE5DC1C9B93B90FDFCE7773D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F587A023437EF33435E1F70F9EFC167 /* KKUnionPayHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55846EBDD26F715DAD418953BA3662BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E6BF80DACF524E18BD8709317E6EE5 /* Pods-KKUnionPayHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E13CA807C4EBCD49C2E239C201A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEAA075F7EBFA58D2A5A8C956AE0691 /* KKUnionPayHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72440AC5AD9FBAAC5D2463594DCD354 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA00D583DA6395D6D98B9B6A200357B /* Pods-KKUnionPayHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68F6210EA5B5869F03CCC49B5FE3D760 /* Pods-KKUnionPayHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4974CAB2DAB95508022B1A617CE26539 /* Build configuration list for PBXNativeTarget "Pods-KKUnionPayHelper_Tests" */;
+			buildPhases = (
+				E72440AC5AD9FBAAC5D2463594DCD354 /* Headers */,
+				46809F83CE206DB9C9EFDED80F48ADC3 /* Sources */,
+				6565A5AB8A4D8488E8D10D5A1649F937 /* Frameworks */,
+				9012525693B4D882E0E511221C561857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A988E3831E1B7D64ADF504848E4C2589 /* PBXTargetDependency */,
+			);
+			name = "Pods-KKUnionPayHelper_Tests";
+			productName = "Pods-KKUnionPayHelper_Tests";
+			productReference = A44B559F43F7EF91E08EAB8A01AE5110 /* Pods_KKUnionPayHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6C6F3A299D1B4556F8B8161786A0ABC /* Pods-KKUnionPayHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AD85AE07A137108F87B4709701F36F /* Build configuration list for PBXNativeTarget "Pods-KKUnionPayHelper_Example" */;
+			buildPhases = (
+				55846EBDD26F715DAD418953BA3662BF /* Headers */,
+				716D45E963A0C30E4EF6CB006222F3A2 /* Sources */,
+				B87459A50E4F50017796D377DC7CD593 /* Frameworks */,
+				C2E2C20515F7FFF7405D770AC12FAADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72F2FAFA1DCE63CE8928D2D441045AE /* PBXTargetDependency */,
+			);
+			name = "Pods-KKUnionPayHelper_Example";
+			productName = "Pods-KKUnionPayHelper_Example";
+			productReference = 99CD90B717F7B467D94EF9A48E309914 /* Pods_KKUnionPayHelper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD4B1513EAC6258F444A6CE4AF225879 /* KKUnionPayHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDF42B4371755C2615A2FAC6B180EDB /* Build configuration list for PBXNativeTarget "KKUnionPayHelper" */;
+			buildPhases = (
+				D81E13CA807C4EBCD49C2E239C201A51 /* Headers */,
+				D9FC052F26C94A1EBD01867B2ADC1902 /* Sources */,
+				F8E43FE0F92E61F4851A4D5335DB9329 /* Frameworks */,
+				DC41948C76FA9A3F155EFCDCF95BF1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKUnionPayHelper;
+			productName = KKUnionPayHelper;
+			productReference = B534F4A9FB0895CACDCD3D774B92A708 /* KKUnionPayHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 425C1947DE930079D867750D601D5DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4B1513EAC6258F444A6CE4AF225879 /* KKUnionPayHelper */,
+				A6C6F3A299D1B4556F8B8161786A0ABC /* Pods-KKUnionPayHelper_Example */,
+				68F6210EA5B5869F03CCC49B5FE3D760 /* Pods-KKUnionPayHelper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9012525693B4D882E0E511221C561857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E2C20515F7FFF7405D770AC12FAADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC41948C76FA9A3F155EFCDCF95BF1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46809F83CE206DB9C9EFDED80F48ADC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9E1E65DC6DF22D158390120EEF909C /* Pods-KKUnionPayHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716D45E963A0C30E4EF6CB006222F3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9985D861DA3CF58943DF4D9522FF3E6B /* Pods-KKUnionPayHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FC052F26C94A1EBD01867B2ADC1902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433CE24CC115B0CE48A6F9C2589F34C3 /* KKUnionPayHelper-dummy.m in Sources */,
+				34E465BD99793CE49D4117E0C648BB80 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A988E3831E1B7D64ADF504848E4C2589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KKUnionPayHelper_Example";
+			target = A6C6F3A299D1B4556F8B8161786A0ABC /* Pods-KKUnionPayHelper_Example */;
+			targetProxy = 199E0F1A20BE93D6766B13EC040C570F /* PBXContainerItemProxy */;
+		};
+		D72F2FAFA1DCE63CE8928D2D441045AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKUnionPayHelper;
+			target = BD4B1513EAC6258F444A6CE4AF225879 /* KKUnionPayHelper */;
+			targetProxy = B35193398C156DFD2EDF02557497EB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4686B95B0BC071ED3FAA4796CE34A4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E4CBD0D225CD4B52F87AEDE07D9774 /* KKUnionPayHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper.modulemap";
+				PRODUCT_MODULE_NAME = KKUnionPayHelper;
+				PRODUCT_NAME = KKUnionPayHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58E77E45ACA7FB613A8F542FA9EC54FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B5ED5666844E8E8F1C659C018CA3E2 /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKUnionPayHelper_Tests/Pods-KKUnionPayHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKUnionPayHelper_Tests/Pods-KKUnionPayHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EE3E4E97A32D391EA1D9E73C17AD2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83027E35ADD664E3C747B5330CFCCF0E /* Pods-KKUnionPayHelper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKUnionPayHelper_Example/Pods-KKUnionPayHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKUnionPayHelper_Example/Pods-KKUnionPayHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA98BA2419D79700A0F1AC8556914CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAC7066C093763E4171A0FE6277B5FE /* Pods-KKUnionPayHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKUnionPayHelper_Example/Pods-KKUnionPayHelper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKUnionPayHelper_Example/Pods-KKUnionPayHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABADBE08700525309D169F14123B623A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E4CBD0D225CD4B52F87AEDE07D9774 /* KKUnionPayHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper.modulemap";
+				PRODUCT_MODULE_NAME = KKUnionPayHelper;
+				PRODUCT_NAME = KKUnionPayHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB92878E60297437E3883CF9FC41A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651F77E23F6472034A439B290E517A0C /* Pods-KKUnionPayHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKUnionPayHelper_Tests/Pods-KKUnionPayHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKUnionPayHelper_Tests/Pods-KKUnionPayHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4974CAB2DAB95508022B1A617CE26539 /* Build configuration list for PBXNativeTarget "Pods-KKUnionPayHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E77E45ACA7FB613A8F542FA9EC54FA /* Debug */,
+				DB92878E60297437E3883CF9FC41A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDF42B4371755C2615A2FAC6B180EDB /* Build configuration list for PBXNativeTarget "KKUnionPayHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABADBE08700525309D169F14123B623A /* Debug */,
+				4686B95B0BC071ED3FAA4796CE34A4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AD85AE07A137108F87B4709701F36F /* Build configuration list for PBXNativeTarget "Pods-KKUnionPayHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA98BA2419D79700A0F1AC8556914CEC /* Debug */,
+				6EE3E4E97A32D391EA1D9E73C17AD2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

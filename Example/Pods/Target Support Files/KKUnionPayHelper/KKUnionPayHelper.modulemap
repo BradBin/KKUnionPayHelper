@@ -1,0 +1,6 @@
+framework module KKUnionPayHelper {
+  umbrella header "KKUnionPayHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
