@@ -29,16 +29,19 @@ KKUnionPayHelper is a Tool for China UnionPay,Convenient and Fast Inheritance of
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'KKUnionPayHelper/Classes/**/*'
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load'}
-  s.requires_arc = true
+  s.source_files        = 'KKUnionPayHelper/Classes/**/*'
+  s.vendored_libraries  = 'KKUnionPayHelper/Classes/**/*.a'
+  s.public_header_files = 'KKUnionPayHelper/Classes/**/*.h'
+
+  s.requires_arc     = true
   s.static_framework = true
-  
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load'}
   # s.resource_bundles = {
   #   'KKUnionPayHelper' => ['KKUnionPayHelper/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'CFNetwork','PassKit','SystemConfiguration'
+  s.libraries = 'z','c++'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

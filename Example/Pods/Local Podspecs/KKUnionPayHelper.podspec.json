@@ -1,8 +1,8 @@
 {
   "name": "KKUnionPayHelper",
-  "version": "0.1.0",
-  "summary": "A short description of KKUnionPayHelper.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "3.3.12",
+  "summary": "KKUnionPayHelper is a Tool for China UnionPay.",
+  "description": "KKUnionPayHelper is a Tool for China UnionPay,Convenient and Fast Inheritance of Payment Function.",
   "homepage": "https://github.com/BradBin/KKUnionPayHelper",
   "license": {
     "type": "MIT",
@@ -13,10 +13,27 @@
   },
   "source": {
     "git": "https://github.com/BradBin/KKUnionPayHelper.git",
-    "tag": "0.1.0"
+    "tag": "3.3.12"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "KKUnionPayHelper/Classes/**/*"
+  "source_files": "KKUnionPayHelper/Classes/**/*",
+  "vendored_libraries": "KKUnionPayHelper/Classes/**/*.a",
+  "public_header_files": "KKUnionPayHelper/Classes/**/*.h",
+  "requires_arc": true,
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  },
+  "frameworks": [
+    "UIKit",
+    "CFNetwork",
+    "PassKit",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ]
 }

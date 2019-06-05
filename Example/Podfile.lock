@@ -1,5 +1,5 @@
 PODS:
-  - KKUnionPayHelper (0.1.0)
+  - KKUnionPayHelper (3.3.12)
 
 DEPENDENCIES:
   - KKUnionPayHelper (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKUnionPayHelper: b74c47d34078aeaab034beb7ec28e4377ae71e11
+  KKUnionPayHelper: 230518b27cec501be8d1d61654cce867a116df2b
 
-PODFILE CHECKSUM: 1345bc03669fe85417ad6b6e67afe6b2f9c07260
+PODFILE CHECKSUM: 1e92c12b4d5dfefa527fbe1426aa3953dfd95e44
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.6.1
