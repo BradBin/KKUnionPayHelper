@@ -7,7 +7,6 @@
 //
 
 #import "KKUnionPayManager.h"
-
 #import "UPPaymentControl.h"
 
 /**
@@ -18,16 +17,10 @@ NSString *const KKUppaySuccess = @"success";
 NSString *const KKUppayFailure = @"fail";
 NSString *const KKUppayCancel  = @"cancel";
 
-/**
- 正式环境
- */
+/** 正式环境 */
 NSString *const KKUppayRelease  = @"00";
-/**
- 开发环境
- */
+/** 开发环境 */
 NSString *const KKUppayDevelop  = @"01";
-
-
 
 @interface KKUnionPayManager ()
 
@@ -82,24 +75,25 @@ NSString *const KKUppayDevelop  = @"01";
 }
 
 -(BOOL)handleOpenURL:(NSURL *)url{
-    __weak typeof(self) weakSelf = self;
+    __weak __typeof(self)weakSelf = self;
     if ([url.host isEqualToString:KKUppayResult]) {
         [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
+            __strong __typeof(weakSelf)strongSelf = weakSelf;
             if ([code isEqualToString:KKUppaySuccess]) {
-                if (weakSelf.successBlock) {
-                    weakSelf.successBlock(KKUnionPayResultStatusSuccess, data);
+                if (strongSelf.successBlock) {
+                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, data);
                 }
             }else if ([code isEqualToString:KKUppayFailure]){
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusFailure, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, data);
                 }
             }else if ([code isEqualToString:KKUppayCancel]){
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusCancel, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, data);
                 }
             }else{
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
                 }
             }
         }];
@@ -108,24 +102,25 @@ NSString *const KKUppayDevelop  = @"01";
 }
 
 -(BOOL)handleOpenURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication{
-    __weak typeof(self) weakSelf = self;
+    __weak __typeof(self)weakSelf = self;
     if ([url.host isEqualToString:KKUppayResult]) {
         [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
+            __strong __typeof(weakSelf)strongSelf = weakSelf;
             if ([code isEqualToString:KKUppaySuccess]) {
-                if (weakSelf.successBlock) {
-                    weakSelf.successBlock(KKUnionPayResultStatusSuccess, data);
+                if (strongSelf.successBlock) {
+                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, data);
                 }
             }else if ([code isEqualToString:KKUppayFailure]){
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusFailure, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, data);
                 }
             }else if ([code isEqualToString:KKUppayCancel]){
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusCancel, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, data);
                 }
             }else{
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
                 }
             }
         }];
@@ -134,24 +129,25 @@ NSString *const KKUppayDevelop  = @"01";
 }
 
 -(BOOL)handleOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
-    __weak typeof(self) weakSelf = self;
+    __weak __typeof(self)weakSelf = self;
     if ([url.host isEqualToString:KKUppayResult]) {
         [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
+            __strong __typeof(weakSelf)strongSelf = weakSelf;
             if ([code isEqualToString:KKUppaySuccess]) {
-                if (weakSelf.successBlock) {
-                    weakSelf.successBlock(KKUnionPayResultStatusSuccess, data);
+                if (strongSelf.successBlock) {
+                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, data);
                 }
             }else if ([code isEqualToString:KKUppayFailure]){
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusFailure, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, data);
                 }
             }else if ([code isEqualToString:KKUppayCancel]){
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusCancel, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, data);
                 }
             }else{
-                if (weakSelf.failureBlock) {
-                    weakSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
+                if (strongSelf.failureBlock) {
+                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
                 }
             }
         }];
