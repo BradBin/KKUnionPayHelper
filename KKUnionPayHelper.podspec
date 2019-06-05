@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KKUnionPayHelper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KKUnionPayHelper.'
+  s.version          = '3.3.12'
+  s.summary          = 'KKUnionPayHelper is a Tool for China UnionPay.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+KKUnionPayHelper is a Tool for China UnionPay,Convenient and Fast Inheritance of Payment Function.
                        DESC
 
   s.homepage         = 'https://github.com/BradBin/KKUnionPayHelper'
@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/BradBin/KKUnionPayHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '9.0'
   s.source_files = 'KKUnionPayHelper/Classes/**/*'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load'}
+  s.requires_arc = true
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'KKUnionPayHelper' => ['KKUnionPayHelper/Assets/*.png']

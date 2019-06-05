@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B9E1E65DC6DF22D158390120EEF909C /* Pods-KKUnionPayHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AD0832F9AA6821F5C62DB006A36450 /* Pods-KKUnionPayHelper_Tests-dummy.m */; };
-		34E465BD99793CE49D4117E0C648BB80 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 21330379B9ED3F289D5B30E8E215FB58 /* ReplaceMe.m */; };
 		4238380ABED4C70EAE47FB5E8A69F8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		433CE24CC115B0CE48A6F9C2589F34C3 /* KKUnionPayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DACCF3DFFD657814B0FC33A60E842355 /* KKUnionPayHelper-dummy.m */; };
 		4C22F28104585319495662DE30EAB9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -40,10 +39,9 @@
 		01EE6F5344CF4C34C0E533C983FA0758 /* Pods-KKUnionPayHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		081AAB98734CFE0C5869AB9D4FC671EC /* Pods-KKUnionPayHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKUnionPayHelper_Example.modulemap"; sourceTree = "<group>"; };
 		1DC2B68AA15EDCA52799A36C9CB176F8 /* Pods-KKUnionPayHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKUnionPayHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		21330379B9ED3F289D5B30E8E215FB58 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KKUnionPayHelper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		21C86426EC83B17D001658B20FE616E3 /* KKUnionPayHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-umbrella.h"; sourceTree = "<group>"; };
 		27D9C0F6510D04DF91094DEF6E90DED1 /* Pods-KKUnionPayHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKUnionPayHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2A830002B458DFEE912995857F01C2ED /* KKUnionPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKUnionPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A830002B458DFEE912995857F01C2ED /* KKUnionPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKUnionPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		30AD0832F9AA6821F5C62DB006A36450 /* Pods-KKUnionPayHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKUnionPayHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		37B474B13B2CEA1325F7AFB261E37AE4 /* Pods-KKUnionPayHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKUnionPayHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		3F81DA0DF47133E0D9ACB36885925132 /* KKUnionPayHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKUnionPayHelper-Info.plist"; sourceTree = "<group>"; };
@@ -58,16 +56,16 @@
 		89E4CBD0D225CD4B52F87AEDE07D9774 /* KKUnionPayHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKUnionPayHelper.xcconfig; sourceTree = "<group>"; };
 		8CA27244068C75A34E5821368B693EE3 /* Pods-KKUnionPayHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKUnionPayHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		962BCB927147F22F57DE6432C5662656 /* Pods-KKUnionPayHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Example-Info.plist"; sourceTree = "<group>"; };
-		99CD90B717F7B467D94EF9A48E309914 /* Pods_KKUnionPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKUnionPayHelper_Example.framework; path = "Pods-KKUnionPayHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A44B559F43F7EF91E08EAB8A01AE5110 /* Pods_KKUnionPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKUnionPayHelper_Tests.framework; path = "Pods-KKUnionPayHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B534F4A9FB0895CACDCD3D774B92A708 /* KKUnionPayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKUnionPayHelper.framework; path = KKUnionPayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B56DB85D9E0463F1BA9FD8B4BEEEF584 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99CD90B717F7B467D94EF9A48E309914 /* Pods_KKUnionPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUnionPayHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44B559F43F7EF91E08EAB8A01AE5110 /* Pods_KKUnionPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUnionPayHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B534F4A9FB0895CACDCD3D774B92A708 /* KKUnionPayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUnionPayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56DB85D9E0463F1BA9FD8B4BEEEF584 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B58326893B24933DCA974584CFEDA80A /* Pods-KKUnionPayHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		B9B5ED5666844E8E8F1C659C018CA3E2 /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DACCF3DFFD657814B0FC33A60E842355 /* KKUnionPayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKUnionPayHelper-dummy.m"; sourceTree = "<group>"; };
-		FBDFD226F7C6D64298B5CFEB62F63174 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBDFD226F7C6D64298B5CFEB62F63174 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FDAC7066C093763E4171A0FE6277B5FE /* Pods-KKUnionPayHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +110,6 @@
 		2F587A023437EF33435E1F70F9EFC167 /* KKUnionPayHelper */ = {
 			isa = PBXGroup;
 			children = (
-				21330379B9ED3F289D5B30E8E215FB58 /* ReplaceMe.m */,
 				0E72A96CB089E7052F01D010D123092C /* Pod */,
 				F49404895D14D7B4CFDEFFEEC74BFBBA /* Support Files */,
 			);
@@ -321,6 +318,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -381,7 +379,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				433CE24CC115B0CE48A6F9C2589F34C3 /* KKUnionPayHelper-dummy.m in Sources */,
-				34E465BD99793CE49D4117E0C648BB80 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,8 +453,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
