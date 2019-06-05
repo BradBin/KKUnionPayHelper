@@ -25,6 +25,7 @@
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
     [SVProgressHUD setCornerRadius:3.0];
     [SVProgressHUD setFont:[UIFont systemFontOfSize:14]];
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
