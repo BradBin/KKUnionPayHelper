@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ACCDD7E68566FDF73B81F072E858A04 /* KKUnionPayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EA92BC05D8AC3510D92E3B708D5B18 /* KKUnionPayHelper-dummy.m */; };
 		0B9E1E65DC6DF22D158390120EEF909C /* Pods-KKUnionPayHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AE805662247AF547CD9A2D5CF4BAD9 /* Pods-KKUnionPayHelper_Tests-dummy.m */; };
-		223A082CAA3D9EECE854D33E10F4E964 /* KKUnionPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA298F2474C2E08FC01BD960A91EF5A /* KKUnionPayManager.m */; };
-		33F20B213A77B7049FF25F47D8E74B5C /* KKUnionPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CEABDB6DC01589EF1841775FE10FDB5A /* KKUnionPayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49B9DD9378C403CD4CCC51A8311238EE /* libPaymentControl.a in Sources */ = {isa = PBXBuildFile; fileRef = F0866B0E098D823DBEC4070C540DD762 /* libPaymentControl.a */; };
+		1C88786C9563FBDA2605105229C33127 /* KKUnionPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 60958AB5C8AFB1F85A6FBF5F09FE9E1F /* KKUnionPayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2757B7EA025F3BCC29419A16B60AD0F0 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 82495A4CFF28421F6276E19248AE3B78 /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4C22F28104585319495662DE30EAB9F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		82E6BF80DACF524E18BD8709317E6EE5 /* Pods-KKUnionPayHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8685C6DDF32C4F19CE194732BBB46ABF /* Pods-KKUnionPayHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967233A825F08602C1D82761A959A8F2 /* KKUnionPayHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9EA73DD55C05D2ECB9D435CC39FC94 /* KKUnionPayHelper-dummy.m */; };
 		96B430CC850CDCD66DFFA4B7988E7531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		98E0C5C38C744386B474E3092181FEEF /* KKUnionPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 62464E460237C7E6B2D97248D2E4BCF6 /* KKUnionPayHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9985D861DA3CF58943DF4D9522FF3E6B /* Pods-KKUnionPayHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 159E23749C586043246547000397BDE1 /* Pods-KKUnionPayHelper_Example-dummy.m */; };
-		99A545DD419CFDADB8E9443BC1962091 /* KKUnionPayHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC7C66C5032A6EBE6710D5F539963B0 /* KKUnionPayHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAA00D583DA6395D6D98B9B6A200357B /* Pods-KKUnionPayHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3260056C23BC6010D83106D1A2DCD88A /* Pods-KKUnionPayHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE12318700D008DE372C78A64E0A1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E98A803421737F4D95E780873D82FF88 /* UPPaymentControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA1100182132F9EFBFA43997C685CEE /* UPPaymentControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDC06401351F8F0F80BF6442F2B7760F /* KKUnionPayHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2E6FDD8571F961FFE263D568F1BACE /* KKUnionPayHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B96BD645DB58825358FBD9C3577A29 /* KKUnionPayHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E76FBADF54C9882765539BF70A30B5 /* KKUnionPayHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4427BDDFB6EE2EED9E4BB69A7DB44CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		ED793756D230F6D1B28C2B4B0416CA51 /* KKUnionPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E33C1AA1BE4EF16BBA36F2DAA3DB862 /* KKUnionPayManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,63 +34,63 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A99786AD5AF7371D5F671F2B3677353E;
+			remoteGlobalIDString = 570BE5545BEC9E8021D4983162CC0306;
 			remoteInfo = KKUnionPayHelper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09820B6353156987084FA514FAA928B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E33C1AA1BE4EF16BBA36F2DAA3DB862 /* KKUnionPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKUnionPayManager.m; path = KKUnionPayHelper/Classes/KKUnionPayManager.m; sourceTree = "<group>"; };
+		0E672BBAA58265F3004AA232A34010AB /* KKUnionPayHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKUnionPayHelper.xcconfig; sourceTree = "<group>"; };
 		159E23749C586043246547000397BDE1 /* Pods-KKUnionPayHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKUnionPayHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		1888463CDB05A96000713B38127873B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2BA298F2474C2E08FC01BD960A91EF5A /* KKUnionPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKUnionPayManager.m; path = KKUnionPayHelper/Classes/KKUnionPayManager.m; sourceTree = "<group>"; };
-		2CC7C66C5032A6EBE6710D5F539963B0 /* KKUnionPayHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-umbrella.h"; sourceTree = "<group>"; };
+		17E76FBADF54C9882765539BF70A30B5 /* KKUnionPayHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-umbrella.h"; sourceTree = "<group>"; };
 		3260056C23BC6010D83106D1A2DCD88A /* Pods-KKUnionPayHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKUnionPayHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		39599C6259F899E2C3AF5F823643B480 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3CFD72FD1C195EC7D1941E93713806FF /* Pods-KKUnionPayHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DC43FE133F20464D4173F292681F51A /* Pods-KKUnionPayHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		417F338FA67CA015D436F963BFC2FF34 /* KKUnionPayHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKUnionPayHelper-Info.plist"; sourceTree = "<group>"; };
 		45AE805662247AF547CD9A2D5CF4BAD9 /* Pods-KKUnionPayHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKUnionPayHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		4DA1100182132F9EFBFA43997C685CEE /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
 		4EE09EFE00D8DE5ACCC6FD4D8EEF18A4 /* Pods-KKUnionPayHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		576BB047254EC53DD0940B256A1A552F /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = KKUnionPayHelper/Classes/paymentcontrol/libs/libPaymentControl.a; sourceTree = "<group>"; };
 		59D8FE2670B5FE38B5A3C62B4033E091 /* Pods_KKUnionPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKUnionPayHelper_Example.framework; path = "Pods-KKUnionPayHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE2393A65126FF8FCFBA435E9825B7C /* KKUnionPayHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKUnionPayHelper.framework; path = KKUnionPayHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA09CB4A86E957087403B07477A93B5 /* KKUnionPayHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKUnionPayHelper.modulemap; sourceTree = "<group>"; };
 		6005717AB132A1EFB695B24E1C413AE0 /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		62295A117977380962A10877155C1722 /* KKUnionPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKUnionPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		771748B536BEDA88185CE6AE4BE2E68C /* KKUnionPayHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKUnionPayHelper.xcconfig; sourceTree = "<group>"; };
+		60958AB5C8AFB1F85A6FBF5F09FE9E1F /* KKUnionPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKUnionPayManager.h; path = KKUnionPayHelper/Classes/KKUnionPayManager.h; sourceTree = "<group>"; };
+		62464E460237C7E6B2D97248D2E4BCF6 /* KKUnionPayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKUnionPayHelper.h; path = KKUnionPayHelper/Classes/KKUnionPayHelper.h; sourceTree = "<group>"; };
+		66D0C95ABE57B1D20982D193F32ECFE2 /* KKUnionPayHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-prefix.pch"; sourceTree = "<group>"; };
 		7BCD8E77BC0B5A1DCD0585A7EE56F2D2 /* Pods-KKUnionPayHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKUnionPayHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82495A4CFF28421F6276E19248AE3B78 /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		829ED44B04396922A910F806E5443345 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8685C6DDF32C4F19CE194732BBB46ABF /* Pods-KKUnionPayHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKUnionPayHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D2E6FDD8571F961FFE263D568F1BACE /* KKUnionPayHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKUnionPayHelper.h; path = KKUnionPayHelper/Classes/KKUnionPayHelper.h; sourceTree = "<group>"; };
 		9140E97BA5A599EF59C84A67ABE9D027 /* Pods-KKUnionPayHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKUnionPayHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		988DCFE9F64794648390B23B63E57784 /* Pods-KKUnionPayHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKUnionPayHelper_Example.modulemap"; sourceTree = "<group>"; };
 		99AAD03D30851631BCE348E8AB04F081 /* Pods-KKUnionPayHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A190ADEBC262D045444C243150919369 /* KKUnionPayHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKUnionPayHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1C9A27F67CF5549B70329B9A738B66C /* Pods-KKUnionPayHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKUnionPayHelper_Tests.modulemap"; sourceTree = "<group>"; };
-		A51112C8978DE007C75058DE6C508702 /* KKUnionPayHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKUnionPayHelper-Info.plist"; sourceTree = "<group>"; };
-		AD96A402C71A426BD551CFAB003D1B84 /* KKUnionPayHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKUnionPayHelper-prefix.pch"; sourceTree = "<group>"; };
 		B3D951879235E30F985D631AAD6ACD1F /* Pods-KKUnionPayHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8EA92BC05D8AC3510D92E3B708D5B18 /* KKUnionPayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKUnionPayHelper-dummy.m"; sourceTree = "<group>"; };
+		BB9EA73DD55C05D2ECB9D435CC39FC94 /* KKUnionPayHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKUnionPayHelper-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEABDB6DC01589EF1841775FE10FDB5A /* KKUnionPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKUnionPayManager.h; path = KKUnionPayHelper/Classes/KKUnionPayManager.h; sourceTree = "<group>"; };
-		D29DB1839A6C5643B1000708F5E1D94B /* KKUnionPayHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKUnionPayHelper.modulemap; sourceTree = "<group>"; };
 		E54444EBD35F0F7BE49F9154E61BDF39 /* Pods_KKUnionPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKUnionPayHelper_Tests.framework; path = "Pods-KKUnionPayHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA46B640BD042DDB9D1434695C692245 /* Pods-KKUnionPayHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKUnionPayHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0866B0E098D823DBEC4070C540DD762 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
 		FE646CEB5D1651EF0331056ADD777A03 /* Pods-KKUnionPayHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKUnionPayHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		334C6025352B6BEA38726D705707FC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4427BDDFB6EE2EED9E4BB69A7DB44CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6565A5AB8A4D8488E8D10D5A1649F937 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4C22F28104585319495662DE30EAB9F3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66EE0CF3F7CC517F4F385F7F95B33AEF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDE12318700D008DE372C78A64E0A1C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +105,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F2695856EC630BCABB8E27CAD61DF30 /* KKUnionPayHelper */ = {
+			isa = PBXGroup;
+			children = (
+				62464E460237C7E6B2D97248D2E4BCF6 /* KKUnionPayHelper.h */,
+				60958AB5C8AFB1F85A6FBF5F09FE9E1F /* KKUnionPayManager.h */,
+				0E33C1AA1BE4EF16BBA36F2DAA3DB862 /* KKUnionPayManager.m */,
+				86D5F4D9A0DB6C563104E26230EC5783 /* Frameworks */,
+				C3C32D46E73F64245E89D3C2B4896345 /* paymentcontrol */,
+				7CAB8159D8ADC99B73A7FD64475FB1F5 /* Pod */,
+				3A155ECADB5B25F79369370077BA2D98 /* Support Files */,
+			);
+			name = KKUnionPayHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2FE37C8A18B5C84B56D1CC0F6EDAF9A2 /* Pods-KKUnionPayHelper_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +139,7 @@
 		328A95F45A59C02BFC35D26CE484CD0A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9B4B5194B8216C156E44BA9ED641E55 /* KKUnionPayHelper */,
+				0F2695856EC630BCABB8E27CAD61DF30 /* KKUnionPayHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -139,6 +153,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3A155ECADB5B25F79369370077BA2D98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DA09CB4A86E957087403B07477A93B5 /* KKUnionPayHelper.modulemap */,
+				0E672BBAA58265F3004AA232A34010AB /* KKUnionPayHelper.xcconfig */,
+				BB9EA73DD55C05D2ECB9D435CC39FC94 /* KKUnionPayHelper-dummy.m */,
+				417F338FA67CA015D436F963BFC2FF34 /* KKUnionPayHelper-Info.plist */,
+				66D0C95ABE57B1D20982D193F32ECFE2 /* KKUnionPayHelper-prefix.pch */,
+				17E76FBADF54C9882765539BF70A30B5 /* KKUnionPayHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKUnionPayHelper";
+			sourceTree = "<group>";
+		};
 		425C1947DE930079D867750D601D5DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,23 +177,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		709A39E7481CDB4818740556C830F0D1 /* Pod */ = {
+		7CAB8159D8ADC99B73A7FD64475FB1F5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62295A117977380962A10877155C1722 /* KKUnionPayHelper.podspec */,
-				1888463CDB05A96000713B38127873B4 /* LICENSE */,
-				09820B6353156987084FA514FAA928B6 /* README.md */,
+				A190ADEBC262D045444C243150919369 /* KKUnionPayHelper.podspec */,
+				39599C6259F899E2C3AF5F823643B480 /* LICENSE */,
+				829ED44B04396922A910F806E5443345 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		955ABE698E06264CB77152143F7E5DDA /* inc */ = {
+		86D5F4D9A0DB6C563104E26230EC5783 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DA1100182132F9EFBFA43997C685CEE /* UPPaymentControl.h */,
+				576BB047254EC53DD0940B256A1A552F /* libPaymentControl.a */,
 			);
-			name = inc;
-			path = inc;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -176,29 +203,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9EC809C9001B066DD8EC473DF4143AD3 /* paymentcontrol */ = {
+		C3C32D46E73F64245E89D3C2B4896345 /* paymentcontrol */ = {
 			isa = PBXGroup;
 			children = (
-				955ABE698E06264CB77152143F7E5DDA /* inc */,
-				E23F988E426F705587018733D45F77B1 /* libs */,
+				D2EC431E4AA2361383A1E288B893ABD5 /* inc */,
 			);
 			name = paymentcontrol;
 			path = KKUnionPayHelper/Classes/paymentcontrol;
-			sourceTree = "<group>";
-		};
-		C9B4B5194B8216C156E44BA9ED641E55 /* KKUnionPayHelper */ = {
-			isa = PBXGroup;
-			children = (
-				8D2E6FDD8571F961FFE263D568F1BACE /* KKUnionPayHelper.h */,
-				CEABDB6DC01589EF1841775FE10FDB5A /* KKUnionPayManager.h */,
-				2BA298F2474C2E08FC01BD960A91EF5A /* KKUnionPayManager.m */,
-				DFEFE12ECA327EF074DB427AA5879D38 /* Frameworks */,
-				9EC809C9001B066DD8EC473DF4143AD3 /* paymentcontrol */,
-				709A39E7481CDB4818740556C830F0D1 /* Pod */,
-				E5B0718A5790F8DBF8FE98EF5245D48E /* Support Files */,
-			);
-			name = KKUnionPayHelper;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -220,34 +231,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DFEFE12ECA327EF074DB427AA5879D38 /* Frameworks */ = {
+		D2EC431E4AA2361383A1E288B893ABD5 /* inc */ = {
 			isa = PBXGroup;
 			children = (
+				82495A4CFF28421F6276E19248AE3B78 /* UPPaymentControl.h */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E23F988E426F705587018733D45F77B1 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				F0866B0E098D823DBEC4070C540DD762 /* libPaymentControl.a */,
-			);
-			name = libs;
-			path = libs;
-			sourceTree = "<group>";
-		};
-		E5B0718A5790F8DBF8FE98EF5245D48E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D29DB1839A6C5643B1000708F5E1D94B /* KKUnionPayHelper.modulemap */,
-				771748B536BEDA88185CE6AE4BE2E68C /* KKUnionPayHelper.xcconfig */,
-				C8EA92BC05D8AC3510D92E3B708D5B18 /* KKUnionPayHelper-dummy.m */,
-				A51112C8978DE007C75058DE6C508702 /* KKUnionPayHelper-Info.plist */,
-				AD96A402C71A426BD551CFAB003D1B84 /* KKUnionPayHelper-prefix.pch */,
-				2CC7C66C5032A6EBE6710D5F539963B0 /* KKUnionPayHelper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KKUnionPayHelper";
+			name = inc;
+			path = inc;
 			sourceTree = "<group>";
 		};
 		E694934E05E5F4C01AD4E064E6DB5A97 /* Pods-KKUnionPayHelper_Example */ = {
@@ -277,14 +267,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73AB881D72E2BA4BB470E59BCF285BDB /* Headers */ = {
+		7BCAA7FA13B2B31D7255F5D3984041FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A545DD419CFDADB8E9443BC1962091 /* KKUnionPayHelper-umbrella.h in Headers */,
-				EDC06401351F8F0F80BF6442F2B7760F /* KKUnionPayHelper.h in Headers */,
-				33F20B213A77B7049FF25F47D8E74B5C /* KKUnionPayManager.h in Headers */,
-				E98A803421737F4D95E780873D82FF88 /* UPPaymentControl.h in Headers */,
+				D2B96BD645DB58825358FBD9C3577A29 /* KKUnionPayHelper-umbrella.h in Headers */,
+				98E0C5C38C744386B474E3092181FEEF /* KKUnionPayHelper.h in Headers */,
+				1C88786C9563FBDA2605105229C33127 /* KKUnionPayManager.h in Headers */,
+				2757B7EA025F3BCC29419A16B60AD0F0 /* UPPaymentControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +289,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		570BE5545BEC9E8021D4983162CC0306 /* KKUnionPayHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F4E45F24928D1C5DAD17CF4D0D2852 /* Build configuration list for PBXNativeTarget "KKUnionPayHelper" */;
+			buildPhases = (
+				7BCAA7FA13B2B31D7255F5D3984041FD /* Headers */,
+				EDF13D6E1B3497DEA7050ED952605ECB /* Sources */,
+				334C6025352B6BEA38726D705707FC7D /* Frameworks */,
+				007B9F9B3A74FD6E73A4AB6BCFEB9E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKUnionPayHelper;
+			productName = KKUnionPayHelper;
+			productReference = 5AE2393A65126FF8FCFBA435E9825B7C /* KKUnionPayHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8A112FACA0320A4BC49CFBA756F22C61 /* Pods-KKUnionPayHelper_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86AD85AE07A137108F87B4709701F36F /* Build configuration list for PBXNativeTarget "Pods-KKUnionPayHelper_Example" */;
@@ -316,24 +324,6 @@
 			name = "Pods-KKUnionPayHelper_Example";
 			productName = "Pods-KKUnionPayHelper_Example";
 			productReference = 59D8FE2670B5FE38B5A3C62B4033E091 /* Pods_KKUnionPayHelper_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A99786AD5AF7371D5F671F2B3677353E /* KKUnionPayHelper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BAD97D35CFFF15B5AF7A1DC7E30B221 /* Build configuration list for PBXNativeTarget "KKUnionPayHelper" */;
-			buildPhases = (
-				73AB881D72E2BA4BB470E59BCF285BDB /* Headers */,
-				E603EA065E255ECA29051439CF781518 /* Sources */,
-				66EE0CF3F7CC517F4F385F7F95B33AEF /* Frameworks */,
-				94C506F5A6250309CCFFB9E7CE9544E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KKUnionPayHelper;
-			productName = KKUnionPayHelper;
-			productReference = 5AE2393A65126FF8FCFBA435E9825B7C /* KKUnionPayHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F03A1D36142D926D78220901B63E7DC9 /* Pods-KKUnionPayHelper_Tests */ = {
@@ -376,7 +366,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A99786AD5AF7371D5F671F2B3677353E /* KKUnionPayHelper */,
+				570BE5545BEC9E8021D4983162CC0306 /* KKUnionPayHelper */,
 				8A112FACA0320A4BC49CFBA756F22C61 /* Pods-KKUnionPayHelper_Example */,
 				F03A1D36142D926D78220901B63E7DC9 /* Pods-KKUnionPayHelper_Tests */,
 			);
@@ -384,14 +374,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9012525693B4D882E0E511221C561857 /* Resources */ = {
+		007B9F9B3A74FD6E73A4AB6BCFEB9E84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94C506F5A6250309CCFFB9E7CE9544E9 /* Resources */ = {
+		9012525693B4D882E0E511221C561857 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,13 +414,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E603EA065E255ECA29051439CF781518 /* Sources */ = {
+		EDF13D6E1B3497DEA7050ED952605ECB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACCDD7E68566FDF73B81F072E858A04 /* KKUnionPayHelper-dummy.m in Sources */,
-				223A082CAA3D9EECE854D33E10F4E964 /* KKUnionPayManager.m in Sources */,
-				49B9DD9378C403CD4CCC51A8311238EE /* libPaymentControl.a in Sources */,
+				967233A825F08602C1D82761A959A8F2 /* KKUnionPayHelper-dummy.m in Sources */,
+				ED793756D230F6D1B28C2B4B0416CA51 /* KKUnionPayManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +435,7 @@
 		D72F2FAFA1DCE63CE8928D2D441045AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKUnionPayHelper;
-			target = A99786AD5AF7371D5F671F2B3677353E /* KKUnionPayHelper */;
+			target = 570BE5545BEC9E8021D4983162CC0306 /* KKUnionPayHelper */;
 			targetProxy = B35193398C156DFD2EDF02557497EB97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -550,6 +539,38 @@
 			};
 			name = Release;
 		};
+		46E31ED298A890CAB72A9F79BE04A413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E672BBAA58265F3004AA232A34010AB /* KKUnionPayHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper.modulemap";
+				PRODUCT_MODULE_NAME = KKUnionPayHelper;
+				PRODUCT_NAME = KKUnionPayHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		92B0DE352BA7B9E9E9B397DE16296BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6005717AB132A1EFB695B24E1C413AE0 /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */;
@@ -643,41 +664,9 @@
 			};
 			name = Release;
 		};
-		B1D0EA4838A7EB4B906A2C8D4708CCA6 /* Release */ = {
+		C632B5E56AECFCF60AF74164BE2779AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 771748B536BEDA88185CE6AE4BE2E68C /* KKUnionPayHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/KKUnionPayHelper/KKUnionPayHelper.modulemap";
-				PRODUCT_MODULE_NAME = KKUnionPayHelper;
-				PRODUCT_NAME = KKUnionPayHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B2133F1D5D4A4A8DB003192AD59C5BA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 771748B536BEDA88185CE6AE4BE2E68C /* KKUnionPayHelper.xcconfig */;
+			baseConfigurationReference = 0E672BBAA58265F3004AA232A34010AB /* KKUnionPayHelper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -776,15 +765,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BAD97D35CFFF15B5AF7A1DC7E30B221 /* Build configuration list for PBXNativeTarget "KKUnionPayHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2133F1D5D4A4A8DB003192AD59C5BA3 /* Debug */,
-				B1D0EA4838A7EB4B906A2C8D4708CCA6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -808,6 +788,15 @@
 			buildConfigurations = (
 				CA2E8FE5293FB4522FDBF93ECADE9E58 /* Debug */,
 				FA2DE220ACB711A4B07E3635B97FF384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F4E45F24928D1C5DAD17CF4D0D2852 /* Build configuration list for PBXNativeTarget "KKUnionPayHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C632B5E56AECFCF60AF74164BE2779AE /* Debug */,
+				46E31ED298A890CAB72A9F79BE04A413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

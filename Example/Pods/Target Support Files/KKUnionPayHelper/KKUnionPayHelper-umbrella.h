@@ -12,7 +12,6 @@
 
 #import "KKUnionPayHelper.h"
 #import "KKUnionPayManager.h"
-#import "UPPaymentControl.h"
 
 FOUNDATION_EXPORT double KKUnionPayHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKUnionPayHelperVersionString[];

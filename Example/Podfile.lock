@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKUnionPayHelper: 230518b27cec501be8d1d61654cce867a116df2b
+  KKUnionPayHelper: b0c5f9cb73d32289df9f63fc942dd1ebfdd63878
 
 PODFILE CHECKSUM: 1e92c12b4d5dfefa527fbe1426aa3953dfd95e44
 

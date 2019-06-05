@@ -18,9 +18,9 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "KKUnionPayHelper/Classes/**/*",
+  "source_files": "KKUnionPayHelper/Classes/**/*.{h,m}",
   "vendored_libraries": "KKUnionPayHelper/Classes/**/*.a",
-  "public_header_files": "KKUnionPayHelper/Classes/**/*.h",
+  "public_header_files": "KKUnionPayHelper/Classes/**/KKUnionPay{Helper,Manager}.h",
   "requires_arc": true,
   "static_framework": true,
   "pod_target_xcconfig": {
