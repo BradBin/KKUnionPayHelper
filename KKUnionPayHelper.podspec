@@ -29,9 +29,9 @@ KKUnionPayHelper is a Tool for China UnionPay,Convenient and Fast Inheritance of
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.source_files        = 'KKUnionPayHelper/Classes/**/*'
+  s.source_files        = 'KKUnionPayHelper/Classes/**/*.{h,m}'
   s.vendored_libraries  = 'KKUnionPayHelper/Classes/**/*.a'
-  s.public_header_files = 'KKUnionPayHelper/Classes/**/*.h'
+  s.public_header_files = 'KKUnionPayHelper/Classes/**/KKUnionPay{Helper,Manager}.h'
 
   s.requires_arc     = true
   s.static_framework = true
