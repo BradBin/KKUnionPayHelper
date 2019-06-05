@@ -133,7 +133,31 @@ NSString *const KKUppayDevelop  = @"01";
     return true;
 }
 
-
+-(BOOL)handleOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    __weak typeof(self) weakSelf = self;
+    if ([url.host isEqualToString:KKUppayResult]) {
+        [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
+            if ([code isEqualToString:KKUppaySuccess]) {
+                if (weakSelf.successBlock) {
+                    weakSelf.successBlock(KKUnionPayResultStatusSuccess, data);
+                }
+            }else if ([code isEqualToString:KKUppayFailure]){
+                if (weakSelf.failureBlock) {
+                    weakSelf.failureBlock(KKUnionPayResultStatusFailure, data);
+                }
+            }else if ([code isEqualToString:KKUppayCancel]){
+                if (weakSelf.failureBlock) {
+                    weakSelf.failureBlock(KKUnionPayResultStatusCancel, data);
+                }
+            }else{
+                if (weakSelf.failureBlock) {
+                    weakSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
+                }
+            }
+        }];
+    }
+    return true;
+}
 
 #pragma mark -
 #pragma mark - 验证签名证书

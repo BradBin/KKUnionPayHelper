@@ -7,13 +7,24 @@
 //
 
 #import "KKAppDelegate.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <KKUnionPayHelper/KKUnionPayHelper.h>
 
 @implementation KKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [KKUnionPayManager.shared setDebugEnabled:true];
+    [self kk_setupSVP];
     // Override point for customization after application launch.
     return YES;
+}
+
+- (void)kk_setupSVP{
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    [SVProgressHUD setCornerRadius:3.0];
+    [SVProgressHUD setFont:[UIFont systemFontOfSize:14]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -41,6 +52,11 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    [KKUnionPayManager.shared handleOpenURL:url];
+    return true;
 }
 
 @end

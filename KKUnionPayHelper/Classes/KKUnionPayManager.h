@@ -80,6 +80,14 @@ typedef void(^ _Nullable KKUnionPayBlock)(KKUnionPayResultStatus status,NSDictio
  */
 - (BOOL)handleOpenURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication;
 
+/**
+ 处理客户端回调
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+ @param url url
+ @return 回调结果
+ */
+- (BOOL)handleOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
+
 
 
 @end

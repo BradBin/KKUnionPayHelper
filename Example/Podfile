@@ -4,6 +4,12 @@ platform :ios, '9.0'
 
 target 'KKUnionPayHelper_Example' do
   pod 'KKUnionPayHelper', :path => '../'
+  
+  pod 'AFNetworking'
+  pod 'YYKit'
+  pod 'Masonry'
+  pod 'SVProgressHUD'
+  pod 'ReactiveObjC'
 
   target 'KKUnionPayHelper_Tests' do
     inherit! :search_paths
