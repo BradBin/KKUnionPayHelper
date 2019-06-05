@@ -56,7 +56,7 @@
 }
 
 -(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
-    [KKUnionPayManager.shared handleOpenURL:url];
+    [KKUnionPayManager.shared handleOpenURL:url options:options];
     return true;
 }
 
