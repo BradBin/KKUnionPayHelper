@@ -18,9 +18,9 @@ NSString *const KKUppayFailure = @"fail";
 NSString *const KKUppayCancel  = @"cancel";
 
 /** 正式环境 */
-NSString *const KKUppayRelease  = @"00";
+NSString *const KKUppayRelease = @"00";
 /** 开发环境 */
-NSString *const KKUppayDevelop  = @"01";
+NSString *const KKUppayDevelop = @"01";
 
 @interface KKUnionPayManager ()
 
@@ -63,7 +63,7 @@ NSString *const KKUppayDevelop  = @"01";
     _isDebug = enable;
 }
 
--(BOOL)isPaymentAppInstalled{
+-(BOOL)isUnionPayAppInstalled{
     return UPPaymentControl.defaultControl.isPaymentAppInstalled;
 }
 

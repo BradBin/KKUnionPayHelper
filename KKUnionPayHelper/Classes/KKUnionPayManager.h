@@ -48,7 +48,7 @@ typedef void(^ _Nullable KKUnionPayBlock)(KKUnionPayResultStatus status,NSDictio
  
  @return 安装银联支付APP结果
  */
-- (BOOL) isPaymentAppInstalled;
+- (BOOL)isUnionPayAppInstalled;
 
 /**
  调用银联支付
@@ -71,7 +71,6 @@ typedef void(^ _Nullable KKUnionPayBlock)(KKUnionPayResultStatus status,NSDictio
  */
 - (BOOL)handleOpenURL:(NSURL *)url;
 
-
 /**
  处理客户端回调
  - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
@@ -87,8 +86,6 @@ typedef void(^ _Nullable KKUnionPayBlock)(KKUnionPayResultStatus status,NSDictio
  @return 回调结果
  */
 - (BOOL)handleOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
-
-
 
 @end
 
