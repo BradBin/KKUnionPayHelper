@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1D0CFB22A93282004ACCFB /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D0CF822A93282004ACCFB /* GTMBase64.m */; };
+		0A1D0CFC22A93282004ACCFB /* KKCryptoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D0CFA22A93282004ACCFB /* KKCryptoHelper.m */; };
 		2998873A9B63615F2B84DDE0 /* Pods_KKUnionPayHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AA09040332378CB971322A /* Pods_KKUnionPayHelper_Example.framework */; };
 		3B8E2E7608D777F69E239975 /* Pods_KKUnionPayHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFBA6F13804C064E2F19B8D /* Pods_KKUnionPayHelper_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,8 +26,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9342E7CA22A91BCE00990BC0 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342E7C722A91BCE00990BC0 /* GTMBase64.m */; };
-		9342E7CB22A91BCE00990BC0 /* KKCryptoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9342E7C922A91BCE00990BC0 /* KKCryptoHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1D0CF622A93282004ACCFB /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		0A1D0CF722A93282004ACCFB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		0A1D0CF822A93282004ACCFB /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		0A1D0CF922A93282004ACCFB /* KKCryptoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCryptoHelper.h; sourceTree = "<group>"; };
+		0A1D0CFA22A93282004ACCFB /* KKCryptoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCryptoHelper.m; sourceTree = "<group>"; };
 		19F3357340D1FA4F0C8BC64E /* Pods-KKUnionPayHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUnionPayHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKUnionPayHelper_Tests/Pods-KKUnionPayHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3831918879F041F7CFB13B0C /* KKUnionPayHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKUnionPayHelper.podspec; path = ../KKUnionPayHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		566CCE39595E89D191214F31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -66,11 +71,6 @@
 		73A7D5BC50606C87B1815EEA /* Pods-KKUnionPayHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUnionPayHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KKUnionPayHelper_Tests/Pods-KKUnionPayHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87AA09040332378CB971322A /* Pods_KKUnionPayHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUnionPayHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9342E7C522A91BCE00990BC0 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		9342E7C622A91BCE00990BC0 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		9342E7C722A91BCE00990BC0 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		9342E7C822A91BCE00990BC0 /* KKCryptoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCryptoHelper.h; sourceTree = "<group>"; };
-		9342E7C922A91BCE00990BC0 /* KKCryptoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCryptoHelper.m; sourceTree = "<group>"; };
 		B5317763D6244015D9DF09B4 /* Pods-KKUnionPayHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUnionPayHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-KKUnionPayHelper_Example/Pods-KKUnionPayHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BCFBA6F13804C064E2F19B8D /* Pods_KKUnionPayHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUnionPayHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF75DB5C2B924D8F453B3A5 /* Pods-KKUnionPayHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUnionPayHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKUnionPayHelper_Example/Pods-KKUnionPayHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1D0CF422A93282004ACCFB /* KKCryptoHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0A1D0CF522A93282004ACCFB /* GTMBase64 */,
+				0A1D0CF922A93282004ACCFB /* KKCryptoHelper.h */,
+				0A1D0CFA22A93282004ACCFB /* KKCryptoHelper.m */,
+			);
+			path = KKCryptoHelper;
+			sourceTree = "<group>";
+		};
+		0A1D0CF522A93282004ACCFB /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				0A1D0CF622A93282004ACCFB /* GTMBase64.h */,
+				0A1D0CF722A93282004ACCFB /* GTMDefines.h */,
+				0A1D0CF822A93282004ACCFB /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +159,7 @@
 		6003F593195388D20070C39A /* Example for KKUnionPayHelper */ = {
 			isa = PBXGroup;
 			children = (
-				9342E7C322A91BCE00990BC0 /* KKCryptoHelper */,
+				0A1D0CF422A93282004ACCFB /* KKCryptoHelper */,
 				6003F59C195388D20070C39A /* KKAppDelegate.h */,
 				6003F59D195388D20070C39A /* KKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -191,26 +211,6 @@
 				566CCE39595E89D191214F31 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		9342E7C322A91BCE00990BC0 /* KKCryptoHelper */ = {
-			isa = PBXGroup;
-			children = (
-				9342E7C422A91BCE00990BC0 /* GTMBase64 */,
-				9342E7C822A91BCE00990BC0 /* KKCryptoHelper.h */,
-				9342E7C922A91BCE00990BC0 /* KKCryptoHelper.m */,
-			);
-			path = KKCryptoHelper;
-			sourceTree = "<group>";
-		};
-		9342E7C422A91BCE00990BC0 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				9342E7C522A91BCE00990BC0 /* GTMBase64.h */,
-				9342E7C622A91BCE00990BC0 /* GTMDefines.h */,
-				9342E7C722A91BCE00990BC0 /* GTMBase64.m */,
-			);
-			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 		C462B3C53905AFC6A061F62F /* Pods */ = {
@@ -404,9 +404,9 @@
 			files = (
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
-				9342E7CB22A91BCE00990BC0 /* KKCryptoHelper.m in Sources */,
+				0A1D0CFC22A93282004ACCFB /* KKCryptoHelper.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				9342E7CA22A91BCE00990BC0 /* GTMBase64.m in Sources */,
+				0A1D0CFB22A93282004ACCFB /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
