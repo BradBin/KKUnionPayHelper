@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0C97DF22AB4F42006CA333 /* iOS企业签名安装文件.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C97DE22AB4F42006CA333 /* iOS企业签名安装文件.plist */; };
 		0A1D0CFB22A93282004ACCFB /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D0CF822A93282004ACCFB /* GTMBase64.m */; };
 		0A1D0CFC22A93282004ACCFB /* KKCryptoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1D0CFA22A93282004ACCFB /* KKCryptoHelper.m */; };
 		2998873A9B63615F2B84DDE0 /* Pods_KKUnionPayHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AA09040332378CB971322A /* Pods_KKUnionPayHelper_Example.framework */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0C97DE22AB4F42006CA333 /* iOS企业签名安装文件.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS企业签名安装文件.plist"; sourceTree = "<group>"; };
 		0A1D0CF622A93282004ACCFB /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		0A1D0CF722A93282004ACCFB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		0A1D0CF822A93282004ACCFB /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				0A0C97DE22AB4F42006CA333 /* iOS企业签名安装文件.plist */,
 			);
 			name = "Example for KKUnionPayHelper";
 			path = KKUnionPayHelper;
@@ -310,6 +313,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0A0C97DF22AB4F42006CA333 /* iOS企业签名安装文件.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +573,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.youbin.KKUnionPayHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -585,6 +590,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.youbin.KKUnionPayHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
