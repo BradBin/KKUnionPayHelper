@@ -46,7 +46,7 @@
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.layer.masksToBounds = true;
         button.layer.cornerRadius = CGFloatPixelRound(8);
-        [button setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#007C81"]] forState:UIControlStateNormal];
+        [button setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"#207CB7"]] forState:UIControlStateNormal];
         [button setTitle:@"银联支付" forState:UIControlStateNormal];
         [self.view addSubview:button];
         [button mas_makeConstraints:^(MASConstraintMaker *make) {
