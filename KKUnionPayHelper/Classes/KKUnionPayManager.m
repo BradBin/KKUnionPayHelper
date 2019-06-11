@@ -37,6 +37,11 @@ NSString *const KKUppayDevelop = @"01";
  */
 @property (nonatomic, copy) KKUnionPayBlock failureBlock;
 
+/**
+ 支付订单编号
+ */
+@property (nonatomic, copy) NSString *tradeNum;
+
 @end
 
 @implementation KKUnionPayManager
@@ -68,102 +73,59 @@ NSString *const KKUppayDevelop = @"01";
 }
 
 -(BOOL)startUnionPay:(NSString *)tradeNum scheme:(NSString *)scheme viewController:(UIViewController *)vc success:(KKUnionPayBlock)success failure:(KKUnionPayBlock)failure{
-    NSString *mode = _isDebug ? KKUppayDevelop : KKUppayRelease;
+    NSString *mode    = _isDebug ? KKUppayDevelop : KKUppayRelease;
     self.successBlock = success;
     self.failureBlock = failure;
+    self.tradeNum     = tradeNum;
     return [[UPPaymentControl defaultControl] startPay:tradeNum fromScheme:scheme mode:mode viewController:vc];
 }
 
 -(BOOL)handleOpenURL:(NSURL *)url{
-    __weak __typeof(self)weakSelf = self;
-    if ([url.host isEqualToString:KKUppayResult]) {
-        [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
-            __strong __typeof(weakSelf)strongSelf = weakSelf;
-            if ([code isEqualToString:KKUppaySuccess]) {
-                if (strongSelf.successBlock) {
-                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, data);
-                }
-            }else if ([code isEqualToString:KKUppayFailure]){
-                if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, data);
-                }
-            }else if ([code isEqualToString:KKUppayCancel]){
-                if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, data);
-                }
-            }else{
-                if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
-                }
-            }
-        }];
-    }
+     [self handlePaymentResultWithURL:url];
     return true;
 }
 
 -(BOOL)handleOpenURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication{
-    __weak __typeof(self)weakSelf = self;
-    if ([url.host isEqualToString:KKUppayResult]) {
-        [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
-            __strong __typeof(weakSelf)strongSelf = weakSelf;
-            if ([code isEqualToString:KKUppaySuccess]) {
-                if (strongSelf.successBlock) {
-                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, data);
-                }
-            }else if ([code isEqualToString:KKUppayFailure]){
-                if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, data);
-                }
-            }else if ([code isEqualToString:KKUppayCancel]){
-                if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, data);
-                }
-            }else{
-                if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
-                }
-            }
-        }];
-    }
+    [self handlePaymentResultWithURL:url];
     return true;
 }
 
 -(BOOL)handleOpenURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
-    __weak __typeof(self)weakSelf = self;
+    [self handlePaymentResultWithURL:url];
+    return true;
+}
+
+- (void)handlePaymentResultWithURL:(NSURL *)url{
     if ([url.host isEqualToString:KKUppayResult]) {
+        __weak __typeof(self)weakSelf = self;
         [[UPPaymentControl defaultControl] handlePaymentResult:url completeBlock:^(NSString *code, NSDictionary *data) {
             __strong __typeof(weakSelf)strongSelf = weakSelf;
+            NSMutableDictionary *dict             = NSMutableDictionary.dictionary;
+            strongSelf.tradeNum                   = strongSelf.tradeNum.length ? strongSelf.tradeNum : @"";
+            [dict addEntriesFromDictionary:data];
+            [dict setObject:strongSelf.tradeNum forKey:@"tradeNum"];
+            if (strongSelf.isDebug) {
+                NSLog(@"\n*************❤️************\n银联支付结果状态:%@\n支付结果详情:%@\n*************************\n",code,dict);
+            }
             if ([code isEqualToString:KKUppaySuccess]) {
                 if (strongSelf.successBlock) {
-                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, data);
+                    strongSelf.successBlock(KKUnionPayResultStatusSuccess, dict);
                 }
             }else if ([code isEqualToString:KKUppayFailure]){
                 if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, data);
+                    strongSelf.failureBlock(KKUnionPayResultStatusFailure, dict);
                 }
             }else if ([code isEqualToString:KKUppayCancel]){
                 if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, data);
+                    strongSelf.failureBlock(KKUnionPayResultStatusCancel, dict);
                 }
             }else{
                 if (strongSelf.failureBlock) {
-                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, data);
+                    strongSelf.failureBlock(KKUnionPayResultStatusUnknownCancel, dict);
                 }
             }
         }];
     }
-    return true;
 }
-
-#pragma mark -
-#pragma mark - 验证签名证书
-- (BOOL)kk_verifySignString:(NSString *)signString{
-    //验签证书同后台验签证书
-    //此处的verify，商户需送去商户后台做验签
-    return false;
-}
-
-
-
 
 @end

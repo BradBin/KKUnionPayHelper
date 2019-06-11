@@ -543,6 +543,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.youbin.KKUnionPayHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
@@ -560,6 +561,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.youbin.KKUnionPayHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};

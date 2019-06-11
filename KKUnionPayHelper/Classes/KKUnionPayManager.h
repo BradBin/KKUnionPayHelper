@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger,KKUnionPayResultStatus) {
-    KKUnionPayResultStatusSuccess,        //支付成功
+    KKUnionPayResultStatusSuccess,        //支付成功(商户需查询商户后台确认支付状态)
     KKUnionPayResultStatusFailure,        //支付失败
     KKUnionPayResultStatusCancel,         //支付取消
     KKUnionPayResultStatusUnknownCancel   //支付取消，交易已发起，状态不确定，商户需查询商户后台确认支付状态
@@ -51,8 +51,10 @@ typedef void(^ _Nullable KKUnionPayBlock)(KKUnionPayResultStatus status,NSDictio
 - (BOOL)isUnionPayAppInstalled;
 
 /**
- 调用银联支付
- 备注:支付成功时,
+ 调用银联支付,发起银联支付
+ 备注:支付成功时,不应以客户端为准,
+    验签成功，展示支付成功提示
+    验签失败，交易结果数据被篡改，商户app后台查询交易结果
  
  @param tradeNum 订单信息/流水账单号
  @param scheme  调用支付的app注册在info.plist中的scheme

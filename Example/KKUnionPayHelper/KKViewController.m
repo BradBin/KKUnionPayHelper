@@ -77,9 +77,10 @@
     manager.responseSerializer     = [AFHTTPResponseSerializer serializer];
     manager.requestSerializer.timeoutInterval = 15.0;
     @weakify(self);
-    [manager GET:kURL_TN_UTest parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager GET:kURL_TN_Product parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         @strongify(self);
         NSString *tradeNum = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        tradeNum = [NSString stringWithFormat:@"%@",tradeNum];
         [self kk_UnionPayWithTradeNum:tradeNum];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
@@ -93,7 +94,9 @@
 
 - (void)kk_UnionPayWithTradeNum:(nonnull NSString *)tradeNum{
     [KKUnionPayManager.shared startUnionPay:tradeNum scheme:@"controldemo" viewController:self success:^(KKUnionPayResultStatus status, NSDictionary * _Nonnull dict) {
-          NSLog(@"UnionPay success: %ld  %@",(long)status,[dict modelDescription]);
+        NSString *successMsg = @"支付成功!(后台处理中...)";
+        [SVProgressHUD showSuccessWithStatus:successMsg];
+        NSLog(@"UnionPay success: %ld  %@",(long)status,[dict modelDescription]);
     } failure:^(KKUnionPayResultStatus status, NSDictionary * _Nonnull dict) {
         switch (status) {
             case KKUnionPayResultStatusCancel:
